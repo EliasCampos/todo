@@ -1,0 +1,8 @@
+	"TODO"
+	Created by Elias Campos, 2018
+
+This client application provides you to write all tasks
+what you need to do, then check their list at any time
+you wish, and remove any of them when it becomes unactual.
+Application uses browser's local storage, that's 
+why your data will be saved after closing the web-page.

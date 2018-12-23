@@ -1,0 +1,76 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+main {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#header {
+    font-size:48px;
+    color:rgb(209, 122, 9);
+    text-shadow: 4px 6px 1px black;
+    padding: 10vh 0 40px 0;
+}
+#input-panel label{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input-panel label{
+    font-size:24px;
+    font-weight: bold;
+}
+#input-panel h5{
+    font-size:16px;
+}
+#input-panel textarea {
+    font-size:22px;
+    margin: 20px 0 15px 0; 
+    padding: 5px 10px;
+    border: 2px solid grey;
+}
+#tasks {
+    margin: 30px auto 0 auto;
+    max-width: 400px;
+    max-height: 450px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.task {
+    border: 2px solid rgb(175, 110, 13);
+    margin:20px 5px;
+    padding: 0 0 15px 0;
+    background-color: rgb(235, 207, 165);
+
+}
+.task .text {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.task .date {
+    font-size: 12px;
+    font-style: italic;
+    position: relative;
+    left:-70px;
+    top:12px;
+}
+.task button {
+	font-size: 12px;
+    font-weight: bold;
+    color:white;
+    border: 2px solid rgb(83, 83, 83);
+    background-color: rgb(170, 10, 10);
+    cursor: pointer;
+    padding: 6px 4px;
+    position: relative;
+    left:75px;
+    top: 5px;
+}
+.task button:hover {
+    border: 2px solid rgb(206, 43, 43);
+    background-color: rgb(255, 0, 0);
+}
