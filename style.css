@@ -10,9 +10,9 @@ main {
 }
 #header {
     font-size:48px;
-    color:rgb(209, 122, 9);
-    text-shadow: 4px 6px 1px black;
-    padding: 10vh 0 40px 0;
+    color:rgb(233, 181, 85);
+    text-shadow: 3px 5px 1px rgb(56, 54, 54);
+    padding: 5vh 0 40px 0;
 }
 #input-panel label{
     display:flex;
@@ -33,44 +33,47 @@ main {
     border: 2px solid grey;
 }
 #tasks {
-    margin: 30px auto 0 auto;
-    max-width: 400px;
+    margin: 20px auto 0 auto;
+    max-width: 410px;
     max-height: 450px;
     box-sizing: border-box;
     overflow: auto;
 }
 .task {
-    border: 2px solid rgb(175, 110, 13);
-    margin:20px 5px;
+    border: 2px solid grey;
+    margin:25px 5px;
+    max-width:90%;
     padding: 0 0 15px 0;
-    background-color: rgb(235, 207, 165);
-
+    background-color: white;
+    box-shadow: 9px 8px 2px rgba(119, 136, 153, 0.5);
+    
 }
 .task .text {
     font-size: 18px;
-    font-weight: bold;
-    padding: 15px 0;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 0 5px 0;
 }
 .task .date {
     font-size: 12px;
     font-style: italic;
+    font-family: monospace;
     position: relative;
-    left:-70px;
-    top:12px;
+    left:-12%;
+    top:7px;
 }
 .task button {
 	font-size: 12px;
     font-weight: bold;
     color:white;
-    border: 2px solid rgb(83, 83, 83);
-    background-color: rgb(170, 10, 10);
+    border: 0;
+    background-color: lightslategray;
     cursor: pointer;
-    padding: 6px 4px;
+    padding: 1px 2px 1px 2px;
     position: relative;
-    left:75px;
-    top: 5px;
+    left:17%;
+    top:5px;
 }
 .task button:hover {
-    border: 2px solid rgb(206, 43, 43);
-    background-color: rgb(255, 0, 0);
+    background-color: lightseagreen;
 }

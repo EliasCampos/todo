@@ -34,7 +34,7 @@ class Task {
         const texts = [
             this.text,
             `Posted at ${this.date}.`,
-            "Remove"
+            "REMOVE"
         ];
         const nodes = tags.map((tag, indx) => {
             const node = document.createElement(tag);
